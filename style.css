@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Qwigley&display=swap');
+html{
+    height: 100%;
+}
+
+boby{
+  font-family: sans-serif;  
+   
+margin: 0;
+padding: 0;
+    
+height: 100%;       
+}
+a{
+    text-decoration: none
+}
+.body-home{
+    background-image: url('images/background-land-2.png');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+/*=============HOME PAGE==========*/
+#home-logo-img{
+    width: 50px;
+    display: block;
+    margin: auto;
+    padding: 25px 10px 10px 10px;
+}
+
+#home-logo-text{
+    width: auto;
+    display: block;
+    margin: auto;
+}
+
+.logotext{
+    font-size: 4rem;
+    font-weight: 900;
+    color: gold;
+    font-family: 'Qwigley', cursive;
+     text-shadow: 5px 5px 0 goldenrod;
+}
+
+
+/*==============HOME-PAGE-MENU========*/
+
+.home-menu-item {
+    text-decoration: none;
+    text-transform: uppercase;
+
+
+color:black;
+font-size:25px;
+font-weight:bold;
+text-align: center;
+border: 5px solid black;
+    
+    
+display: block; 
+margin: auto;
+margin-bottom: 10px;
+width: 80%;  
+}
+
+/*==============HOME-PAGE-MENU========*/
+
+/*============== STARTERS PAGE========*/
+
+.starters-list-item {
+    text-decoration: none;
+}
+
+.starters-list-item {
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+}
+
+.starters-list-item h1{
+    font-weight: bold;
+    font-size: 20px;
+    color:darkorange;
+    padding-left:10px;
+    
+}
+
+.meals-list-item i {
+    float: right;
+    color: #1a1a1a;
+    padding-right: 20px;
+    
+}
+
+.starters-list-item p{
+    font-size: 15px;
+    font-style: italic;
+    color:darkgoldenrod;
+    margin-top: 7px;
+    padding-left: 10px;
+    
+
+}
+
+
+
+/*==============HEADER========*/
+
+.header{
+    background-color: aliceblue;
+    width: 100vw;
+    height: 100px;
+    top: 0;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center
+    
+    
+    
+}
+.header a{
+   position: absolute;
+    top: 2rem;
+    left: 2rem;
+    color: darkorange;
+    font-size: 20px
+}
+.heading-with-icon {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem
+}
+.heading-with-icon span {
+    font-weight: bold; */
+    font-size: 25;
+    color: darkorange;
+    padding-left: 10px;
+}
+.heading-with-icon i {
+    font-weight: bold; */
+    font-size: 25;
+    color: darkorange;
+    padding-left: 10px;
+    margin-right: 2rem
+}
+/*============== RECIPE PAGE ========*/
+#recipe{
+    padding-top: 50px;
+}
+
+/*============== RECIPE DETAILS ========*/
+
+.recipe-details-img {
+    width: 100%;
+}
+
+
+.recipe-details h1{
+    font-size: 25px;
+    text-align: center;
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+    padding: 5px;
+}
+
+.recipe-details h2{
+    font-size: 20px;
+    text-align: left;
+    margin: 0;
+    margin-left: 10px;
+}
+
+
+.recipe-details{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.recipe-details-info{
+    font-size:13px;
+    
+}
+
+.recipe-details-ingredients-label{
+    line-height: 25px;
+    margin-left: 25px;
+}
+
+
+.recipe-details-steps{
+    padding-top: 20px;
+    
+}
+
+.recipe-details-steps ol{
+    padding-left: 28px;
+}
+
+ .img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*============== RESPONSIVE LAYOUT ========*/
+
+@media only screen and (min-width:600px){
+ 
+    #starters{
+        width: 80px;
+        margin: auto;
+    }
+    
+    #recipe{
+        width:80px;
+        margin: auto;
+    }
+    
+    
+}
+
+@media only screen and (min-width:100px){
+    
+  #starters{
+        width: 40%;
+        margin: auto;
+    }
+    
+    #recipe{
+        width:40%;
+        margin: auto;
+    }
+       
+}
+
+
+@media only screen and (min-width:1500px){
+    
+  #starters{
+        width: 40%;
+        margin: auto;
+    }
+    
+    #recipe{
+        width:40%;
+        margin: auto;
+    }
+       
+}
+
+#message-recieved{
+    background-image:url(images/drinks.jpg); 
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
